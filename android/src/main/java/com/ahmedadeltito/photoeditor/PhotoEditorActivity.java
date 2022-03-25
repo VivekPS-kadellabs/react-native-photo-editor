@@ -318,7 +318,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
     public void addEmoji(String emojiName,int emojiColorCode) {
         System.out.println("+++++++++++++++++ emojiColorCode "+emojiColorCode);
         try {
-            photoEditorSDK.addEmoji(emojiName, emojiFont, emojiColorCode);
+            photoEditorSDK.addEmojies(emojiName, emojiFont, emojiColorCode);
         }
         catch (Exception e){
             System.out.println("+++++++++++++++++ Exception "+e);
