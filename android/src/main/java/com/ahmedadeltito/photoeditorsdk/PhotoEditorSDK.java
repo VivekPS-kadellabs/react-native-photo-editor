@@ -88,7 +88,7 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
             onPhotoEditorSDKListener.onAddViewListener(ViewType.TEXT, addedViews.size());
     }
 
-    public void addEmoji(String emojiName, Typeface emojiFont, int emojiColorCode) {
+    public void addEmojies(String emojiName, Typeface emojiFont, int emojiColorCode) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View emojiRootView = inflater.inflate(R.layout.photo_editor_sdk_text_item_list, null);
         TextView emojiTextView = (TextView) emojiRootView.findViewById(R.id.photo_editor_sdk_text_tv);
