@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="photo_editor_photos">
+    </integer-array>
+
+    <string-array name="photo_editor_emoji">
+        <item> U+25EF</item>
+        <item> U+2192</item>
+        <item> U+25B3</item>
+        <item> U+25A1</item>
+        <item> U+2B2D</item>
+    </string-array>
+
+</resources>
+
